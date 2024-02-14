@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>አስቂኝ ጨዋታ</title>
+    <link rel="stylesheet" href="mainstyle.css" />
+
+    <style>
+      .hint {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="height: 20px"></div>
+    <div class="hint">
+      <p>
+        🔥 ፍንጭ: ለመንቀሳቀስ የቀስት ቁልፎችን ተጠቀም, ቀጣዩን ፊደል ለማግኘት Space ን ይጫኑ ወይም Click
+        ያድርጉ . 🎉
+      </p>
+    </div>
+
+    <canvas id="canvas" width="700" height="700"></canvas>
+    <div style="height: 20px"></div>
+    <div class="button-container">
+      <button class="button-decor" onclick="restart()">በድጋሚ ተጫወት</button>
+      <button class="button-decor" onclick="back()">ተመለስ</button>
+    </div>
+
+    <script src="index.js"></script>
+    <script>
+      function back() {
+        window.location.href = "level.html";
+      }
+
+      function restart() {
+        window.location.reload();
+      }
+    </script>
+
+    <div id="audioPlayer">
+      <iframe src="audio-player.html" frameborder="0"></iframe>
+    </div>
+  </body>
+</html>

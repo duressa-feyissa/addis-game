@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mainstyle.css" />
+
+    <title>አስቂኝ ጨዋታ</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #201f1f;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        height: 100vh;
+      }
+
+      h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 30px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      button {
+        padding: 15px 30px;
+        background-color: #1e90ff;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2rem;
+        margin: 15px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      button:hover {
+        background-color: #0077ff;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>ሰላም, እንኳን ደህና መጡ</h1>
+      <div>
+        <button onclick="startNewGame()">አዲስ ጨዋታ ጀምር</button>
+        <button onclick="getInformation()">መረጃ</button>
+      </div>
+    </div>
+    <div id="audioPlayer">
+      <iframe src="audio-player.html" frameborder="0"></iframe>
+    </div>
+    <script>
+      function startNewGame() {
+        window.location.href = "level.html";
+      }
+
+      function getInformation() {
+        window.location.href = "info.html";
+      }
+    </script>
+  </body>
+</html>

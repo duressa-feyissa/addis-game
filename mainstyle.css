@@ -1,0 +1,40 @@
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  text-align: center;
+  background: #fff;
+  background-image: url("bg.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#canvas {
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.button-decor {
+  display: block;
+  margin: 0px auto;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 5%;
+  color: blue;
+  cursor: pointer;
+  border: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#audioPlayer {
+  display: none;
+}
