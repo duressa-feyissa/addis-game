@@ -6,6 +6,8 @@ let nextGridWidth = 25;
 let gridArrayH = 30;
 let gridArrayW = 16;
 
+document.addEventListener("DOMContentLoaded", SetupCanvas);
+
 function Createblock() {
   //ba;
   block.push([
@@ -204,8 +206,6 @@ class Coordinates {
     this.y = y;
   }
 }
-
-document.addEventListener("DOMContentLoaded", SetupCanvas);
 
 let startX = 7;
 let startY = 0;
@@ -615,19 +615,4 @@ function GetLastSquareX() {
     if (square[0] > lastX) lastX = square[0];
   }
   return lastX;
-}
-
-window.addEventListener("load", function () {
-  var audio = document.getElementById("bgMusic");
-
-  audio.addEventListener("ended", function () {
-    audio.play();
-  });
-});
-
-function startMusic() {
-  var audio = document.getElementById("bgMusic");
-  if (audio.paused) {
-    audio.play();
-  }
 }
