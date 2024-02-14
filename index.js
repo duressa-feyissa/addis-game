@@ -401,7 +401,7 @@ function reloadPage() {
 }
 
 function goToStartPage() {
-  window.location.href = "start.html";
+  window.location.href = "index.html";
 }
 
 function CreateShape() {
