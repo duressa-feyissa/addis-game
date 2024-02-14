@@ -231,9 +231,9 @@ function SetupCanvas() {
   ctx.fillText(score.toString(), 455, 350);
   ctx.font = "48px Arial";
   let curlevel = getQueryParams()["level"] || "easy";
-  if (curlevel === "Medium") {
+  if (curlevel === "medium") {
     curlevel = "መካከለኛ";
-  } else if (curlevel === "Hard") {
+  } else if (curlevel === "hard") {
     curlevel = "ትልቅ";
   } else {
     curlevel = "ቀላል";
