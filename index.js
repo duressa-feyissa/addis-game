@@ -234,7 +234,7 @@ function SetupCanvas() {
   if (curlevel === "medium") {
     curlevel = "መካከለኛ";
   } else if (curlevel === "hard") {
-    curlevel = "ትልቅ";
+    curlevel = "ከባድ";
   } else {
     curlevel = "ቀላል";
   }
