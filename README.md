@@ -1,8 +1,8 @@
-# Addis Chaweta
+# Asekign Chaweta
 
 ## Overview
 
-Addis Chaweta is a modified version of the classic game Tetris, infused with elements of the Geez alphabet and an additional gameplay rule. In this game, players manipulate blocks composed of Geez letters rather than traditional Tetris shapes. Additionally, a unique rule requires players to press the space bar or click to change the current block, adding an extra layer of strategy to the gameplay.
+Asekign Chaweta is a modified version of the classic game Tetris, infused with elements of the Geez alphabet and an additional gameplay rule. In this game, players manipulate blocks composed of Geez letters rather than traditional Tetris shapes. Additionally, a unique rule requires players to press the space bar or click to change the current block, adding an extra layer of strategy to the gameplay.
 
 ## Features
 
